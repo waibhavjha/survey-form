@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <link href="index.css" rel="stylesheet">
+  <header>
+<h1 id= "title">Survey Form</h1>
+  </header>
+  <body>
+  <p id= "description">Thank you for taking the time to help us improve our fatures.</p>
+<form id="survey-form">
+  
+  <div class="input-headings">
+    
+  <label for="name" id="name-label">Name</label>
+  <input id="name" type="text" name="name" placeholder="Enter your name" class="forms-inputs" required></input>
+  <br>
+  <label for="email" id="email-label">Email</label>
+  <input id="email" type="email" name="email" placeholder="Enter your Email" class="forms-inputs" required></input>
+  <br>
+<label for="number" id="number-label">Age (optional)</label>
+<input id="number" type="number" age="number" placeholder="Age" min="18" max="100" required class="forms-inputs"></input>
+<br>
+<label for="text">Which option best describes your current role?</label>
+<input id="text" type="text" name="text" placeholder="Select current role" class="forms-inputs" required></input>
+<br>
+<label for="option" id="dropdown">Would you recommend any feature to a friend?</label>
+<select id="dropdown">
+  <option value="definetly">Definetly</option>
+  <option value="maybe">Maybe</option>
+  <option value="notsure">Not sure</option>
+  </select>
+<br>
+<label for="text2" id="text2"><b>What is your favorite feature of our site:</b></label>
+<br>
+<input id="text2" type="radio" id="challenges" name="feature" value="challenges">
+<label for="text2">challenges</label>
+<br>
+<input id="text2" type="radio" id="projects" name="feature" value="projects"><label for="text2">projects</label>
+<br>
+<input id="text2" type="radio" id="community" name="feature" value="community"><label for="text2">community</label>
+<br>
+<input id="text2" type="radio" id="opensource" name="feature" value="opensource">
+<label for="text2">opensource</label>
+<br>
+<br>
+<label for="text3"><b>What would you like to see improved? (Check all that apply)<b></label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="Front-end Projects">
+  <label for="checkbox">Communication</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="Front-end Projects">
+  <label for="checkbox">Connection</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="Front-end Projects">
+  <label for="checkbox">Projects</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="features" value="Front-end Projects">
+  <label for="checkbox">Features</label>
+  <br>
+  <br>
+  <label for="textarea">Any comments or suggestions?</label>
+  <br>
+  <textarea id="textarea" type="texarea" name="Additional Comments" value="Enter your comment here..." rows="5" cols="50"></textarea>
+  <br>
+         <input id="submit" type="submit" class="submit-button">
+  
+  </div>
+  </form>
+  </body>
+  </html>
+
+
+  
+
